@@ -413,7 +413,7 @@ header{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 0 70px;
+    padding: 5px 70px;
     color: #ED2647;
 }
 
@@ -468,6 +468,89 @@ header{
         width: 10px;
         height: 10px;
         margin: 8px;
+    }
+
+    .one{
+        height: 350px;
+    }
+
+    .welcome{
+        width: 500px;
+        margin-top: -45px;
+        margin-left: 50px;
+    }
+
+    .key{
+        margin-left: 22%;
+        margin-bottom: -30px;
+    }
+
+    .key1{
+        margin-top: 600px;
+        margin-left: -500px;
+    }
+
+    .key2{
+        margin-left: 30%;
+    }
+
+    .type{
+        margin-top: 300px;
+    }
+
+    .second .key2{
+        margin-left: -66%;
+        margin-top: 70px;
+    }
+
+    .second .type{
+        margin-top: 650px;
+        margin-left: 27%;
+    }
+
+    .third .key{
+        margin-top: 150px;
+    }
+
+    .third .key1{
+        margin-top: 700px;
+    }
+
+    .fourth .key2{
+        margin-left: -66%;
+    }
+
+    .fourth .type{
+        margin-top: 700px;
+        margin-left: 28%;
+    }
+
+    .fourth{
+        padding-bottom: 50px;
+    }
+
+    .expect h1{
+        font-size: 45px;
+    }
+
+    .expect p{
+        padding: 0 10px;
+    }
+
+    .contact a i{
+        font-size: 20px;
+    }
+
+    .contact a p{
+        font-size: 15px;
+    }
+
+    .footer{
+        padding: 0 20px;
+    }
+
+    .footer-left{
+        width: 30%;
     }
 }
 
@@ -708,36 +791,51 @@ header{
     }
 
     .welcome{
-        width: 500px;
+        width: 300px;
+        height: 150px;
         margin-top: -45px;
         margin-left: 35px;
     }
 
+    .welcome h1{
+        font-size: 20px;
+    }
+
+    .welcome p{
+        font-size: 12px;
+    }
+
+    .key img, .key2, .key2 img{
+        height: 380px;
+        width: 380px;
+    }
+
+    .type, .key1{
+        width: 380px;
+        height: 250px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
     .key{
-        margin-left: 90px;
+        margin-left: 13%;
         margin-bottom: -30px;
     }
 
     .key1{
-        margin-top: 600px;
-        margin-left: -500px;
-    }
-
-    .key2{
-        margin-left: -90px;
-    }
-
-    .type{
-        margin-top: 300px;
+        margin-top: 450px;
+        margin-left: -73%;
     }
 
     .second .key2{
-        margin-left: -615px;
-        margin-top: 70px;
+        margin-right: 20%;
+        margin-top: 40px;
+        background: #1D212B;
     }
 
     .second .type{
-        margin-top: 650px;
+        margin-top: 480px;
+        margin-right: 40%;
     }
 
     .third .key{
@@ -754,7 +852,7 @@ header{
 
     .fourth .type{
         margin-top: 700px;
-        margin-left: 140px;
+        margin-left: 40px;
     }
 
     .fourth{
@@ -762,15 +860,36 @@ header{
     }
 
     .expect h1{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .expect p{
-        padding: 0 10px;
+        padding: 0 20px;
+    }
+
+    .points{
+        margin: 0 20px;
+    }
+
+    .points h3{
+        font-size: 20px;
+    }
+
+    .points p{
+        font-size: 15px;
     }
 
     .img-slider{
         height: 500px;
+    }
+
+    .contact-head p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .contact a{
+        width: 300px;
     }
 
     .contact a i{
@@ -778,11 +897,12 @@ header{
     }
 
     .contact a p{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .footer{
-        padding: 0 20px;
+        padding: 5px 20px;
+        font-size: 12px;
     }
 
     .footer-left{
